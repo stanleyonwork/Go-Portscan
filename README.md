@@ -17,7 +17,7 @@ git clone https://github.com/stanleyonwork/Go-Portscan.git
 cd go-portscan
 
 # Compile binary with size optimization (strip debug symbols)
-go build -ldflags="-s -w" -o scanner main.go
+go build -ldflags="-s -w" -o scanner portscanner.go
 
 # Execute the binary
 go run portscanner.go
